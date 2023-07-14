@@ -1,0 +1,286 @@
+2023-06-21 14:34:47 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:34:47 [INFO]: Currently using GPU 0
+2023-06-21 14:34:47 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:34:47 [INFO]: ==============Data process===============
+2023-06-21 14:34:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:34:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:34:47 [INFO]: ==============init mlp model================
+2023-06-21 14:34:47 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 1000, "random_state": 42}
+2023-06-21 14:34:47 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:34:48 [DEBUG]: F1, Precison, Recall: 18.154% 19.505% 18.982%
+2023-06-21 14:34:48 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:34:48 [DEBUG]: F1, Precison, Recall: 10.587% 11.963% 15.350%
+2023-06-21 14:35:23 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:35:23 [INFO]: Currently using GPU 0
+2023-06-21 14:35:23 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:35:24 [INFO]: ==============Data process===============
+2023-06-21 14:35:24 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:35:24 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:35:24 [INFO]: ==============init mlp model================
+2023-06-21 14:35:24 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:35:24 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:35:24 [DEBUG]: F1, Precison, Recall: 18.154% 19.505% 18.982%
+2023-06-21 14:35:24 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:35:24 [DEBUG]: F1, Precison, Recall: 10.587% 11.963% 15.350%
+2023-06-21 14:37:28 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:37:28 [INFO]: Currently using GPU 0
+2023-06-21 14:37:28 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:37:28 [INFO]: ==============Data process===============
+2023-06-21 14:37:28 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:37:28 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:37:28 [INFO]: ==============init mlp model================
+2023-06-21 14:37:28 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:37:28 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:37:29 [DEBUG]: F1, Precison, Recall: 18.154% 19.505% 18.982%
+2023-06-21 14:37:29 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:37:29 [DEBUG]: F1, Precison, Recall: 10.587% 11.963% 15.350%
+2023-06-21 14:40:09 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:40:09 [INFO]: Currently using GPU 0
+2023-06-21 14:40:09 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:40:09 [INFO]: ==============Data process===============
+2023-06-21 14:40:09 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:40:09 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:40:09 [INFO]: ==============init mlp model================
+2023-06-21 14:40:09 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:40:09 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:40:10 [DEBUG]: F1, Precison, Recall: 18.154% 19.505% 18.982%
+2023-06-21 14:40:10 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:40:10 [DEBUG]: F1, Precison, Recall: 10.587% 11.963% 15.350%
+2023-06-21 14:40:29 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:40:29 [INFO]: Currently using GPU 0
+2023-06-21 14:40:29 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:40:29 [INFO]: ==============Data process===============
+2023-06-21 14:40:29 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:40:29 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:40:29 [INFO]: ==============init mlp model================
+2023-06-21 14:40:29 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:40:29 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:40:30 [DEBUG]: F1, Precison, Recall: 18.154% 19.505% 18.982%
+2023-06-21 14:40:30 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:40:30 [DEBUG]: F1, Precison, Recall: 10.587% 11.963% 15.350%
+2023-06-21 14:41:27 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:41:27 [INFO]: Currently using GPU 0
+2023-06-21 14:41:27 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:41:27 [INFO]: ==============Data process===============
+2023-06-21 14:41:27 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:41:27 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 14:41:27 [INFO]: ==============init mlp model================
+2023-06-21 14:41:27 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:41:27 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:41:38 [DEBUG]: F1, Precison, Recall: 19.599% 20.823% 20.304%
+2023-06-21 14:41:38 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:41:38 [DEBUG]: F1, Precison, Recall: 14.343% 16.281% 17.410%
+2023-06-21 14:43:00 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:43:00 [INFO]: Currently using GPU 0
+2023-06-21 14:43:00 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:43:00 [INFO]: ==============Data process===============
+2023-06-21 14:43:00 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:43:00 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:43:00 [INFO]: ==============init mlp model================
+2023-06-21 14:43:00 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:43:00 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:43:05 [DEBUG]: F1, Precison, Recall: 13.732% 27.038% 18.083%
+2023-06-21 14:43:05 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:43:05 [DEBUG]: F1, Precison, Recall: 11.415% 16.766% 16.540%
+2023-06-21 14:43:23 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:43:23 [INFO]: Currently using GPU 0
+2023-06-21 14:43:23 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:43:23 [INFO]: ==============Data process===============
+2023-06-21 14:43:23 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:43:23 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:43:23 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:43:23 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:43:23 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:43:23 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:43:23 [INFO]: ==============init mlp model================
+2023-06-21 14:43:23 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 10000, "random_state": 42}
+2023-06-21 14:43:23 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:48:09 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:48:09 [INFO]: Currently using GPU 0
+2023-06-21 14:48:09 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:48:09 [INFO]: ==============Data process===============
+2023-06-21 14:48:09 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:48:09 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:48:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:48:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:48:09 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:48:09 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:48:09 [INFO]: ==============init mlp model================
+2023-06-21 14:48:09 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 14:48:09 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:48:26 [DEBUG]: F1, Precison, Recall: 47.148% 56.637% 45.913%
+2023-06-21 14:48:26 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:48:26 [DEBUG]: F1, Precison, Recall: 31.812% 38.580% 39.058%
+2023-06-21 14:49:07 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:49:07 [INFO]: Currently using GPU 0
+2023-06-21 14:49:07 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:49:07 [INFO]: ==============Data process===============
+2023-06-21 14:49:07 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:49:07 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:49:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:49:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:49:07 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:49:07 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:49:07 [INFO]: ==============init mlp model================
+2023-06-21 14:49:07 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 14:49:07 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:54:08 [DEBUG]: F1, Precison, Recall: 95.580% 96.007% 95.242%
+2023-06-21 14:54:08 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:54:08 [DEBUG]: F1, Precison, Recall: 32.148% 43.941% 33.906%
+2023-06-21 14:56:44 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:56:44 [INFO]: Currently using GPU 0
+2023-06-21 14:56:44 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:56:45 [INFO]: ==============Data process===============
+2023-06-21 14:56:45 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:56:45 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:56:45 [INFO]: ==============init mlp model================
+2023-06-21 14:56:45 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 14:56:45 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:56:47 [DEBUG]: F1, Precison, Recall: 15.863% 23.299% 18.465%
+2023-06-21 14:56:47 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:56:47 [DEBUG]: F1, Precison, Recall: 7.670% 19.163% 17.059%
+2023-06-21 14:57:02 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:57:02 [INFO]: Currently using GPU 0
+2023-06-21 14:57:02 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:57:03 [INFO]: ==============Data process===============
+2023-06-21 14:57:03 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:57:03 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:57:03 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:57:03 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:57:03 [INFO]: ==============init mlp model================
+2023-06-21 14:57:03 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 14:57:03 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:57:13 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:57:13 [INFO]: Currently using GPU 0
+2023-06-21 14:57:13 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:57:13 [INFO]: ==============Data process===============
+2023-06-21 14:57:13 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:57:13 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:57:13 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:57:13 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:57:13 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:57:13 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:57:13 [INFO]: ==============init mlp model================
+2023-06-21 14:57:13 [INFO]: MLP params: {"hidden_layer_sizes": [100], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 14:57:13 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 14:57:37 [DEBUG]: F1, Precison, Recall: 90.890% 91.905% 90.118%
+2023-06-21 14:57:37 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 14:57:37 [DEBUG]: F1, Precison, Recall: 4.993% 2.936% 16.667%
+2023-06-21 15:00:09 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:00:09 [INFO]: Currently using GPU 0
+2023-06-21 15:00:09 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:00:09 [INFO]: ==============Data process===============
+2023-06-21 15:00:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:00:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:00:09 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:00:09 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:00:09 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:00:09 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:00:09 [INFO]: ==============init mlp model================
+2023-06-21 15:00:09 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 15:00:09 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 15:00:37 [DEBUG]: F1, Precison, Recall: 85.849% 89.824% 83.203%
+2023-06-21 15:00:37 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 15:00:37 [DEBUG]: F1, Precison, Recall: 4.993% 2.936% 16.667%
+2023-06-21 15:01:36 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:01:36 [INFO]: Currently using GPU 0
+2023-06-21 15:01:36 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:01:36 [INFO]: ==============Data process===============
+2023-06-21 15:01:36 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:01:36 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:01:37 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:01:37 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:01:37 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:01:37 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:01:37 [INFO]: ==============init mlp model================
+2023-06-21 15:01:37 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 15:01:37 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 15:03:41 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:03:41 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 15:03:41 [DEBUG]: F1, Precison, Recall: 5.680% 5.507% 16.689%
+2023-06-21 15:04:39 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:04:39 [INFO]: Currently using GPU 0
+2023-06-21 15:04:39 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:04:39 [INFO]: ==============Data process===============
+2023-06-21 15:04:39 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:04:39 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:04:39 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:04:39 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:04:39 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:04:39 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:04:39 [INFO]: ==============init mlp model================
+2023-06-21 15:04:39 [INFO]: MLP params: {"hidden_layer_sizes": [1000], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 15:04:39 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 15:09:41 [DEBUG]: F1, Precison, Recall: 95.580% 96.007% 95.242%
+2023-06-21 15:09:41 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 15:09:41 [DEBUG]: F1, Precison, Recall: 32.148% 43.941% 33.906%
+2023-06-21 15:13:44 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:13:44 [INFO]: Currently using GPU 0
+2023-06-21 15:13:44 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:13:44 [INFO]: ==============Data process===============
+2023-06-21 15:13:44 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:13:44 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:13:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:13:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:13:44 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:13:44 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:13:44 [INFO]: ==============init mlp model================
+2023-06-21 15:13:44 [INFO]: MLP params: {"hidden_layer_sizes": [100, 100], "max_iter": 1000, "random_state": 42, "verbose": true}
+2023-06-21 15:13:44 [INFO]: =================Start mlp training phase ...=================
+2023-06-21 15:14:50 [DEBUG]: F1, Precison, Recall: 80.016% 82.398% 78.883%
+2023-06-21 15:14:50 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-06-21 15:14:50 [DEBUG]: F1, Precison, Recall: 29.584% 40.486% 32.716%
+2023-07-09 16:02:41 [INFO]: Currently using GPU 0
+2023-07-09 16:02:42 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:02:42 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:02:42 [DEBUG]: standard every feature
+2023-07-09 16:02:42 [DEBUG]: standard every feature
+2023-07-09 16:02:42 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:02:42 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:02:42 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:02:42 [INFO]: ==============init mlp model================
+2023-07-09 16:02:42 [INFO]: MLP params: {"hidden_layer_sizes": [100, 100], "max_iter": 2000, "random_state": 42, "verbose": true}
+2023-07-09 16:02:42 [INFO]: =================Start mlp training phase ...=================
+2023-07-09 16:02:45 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:02:45 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-07-09 16:02:45 [DEBUG]: F1, Precison, Recall: 81.166% 82.522% 80.966%
+2023-07-09 16:03:28 [INFO]: Currently using GPU 0
+2023-07-09 16:03:29 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:03:29 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:03:29 [DEBUG]: standard every feature
+2023-07-09 16:03:29 [DEBUG]: standard every feature
+2023-07-09 16:03:29 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:03:29 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:03:29 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:03:29 [INFO]: ==============init mlp model================
+2023-07-09 16:03:29 [INFO]: MLP params: {"hidden_layer_sizes": [100, 100], "max_iter": 2000, "random_state": 42, "verbose": true}
+2023-07-09 16:03:29 [INFO]: =================Start mlp training phase ...=================
+2023-07-09 16:03:32 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:03:32 [DEBUG]: F1 : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:03:32 [DEBUG]: pre : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:03:32 [DEBUG]: rec : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:03:32 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-07-09 16:03:32 [DEBUG]: F1, Precison, Recall: 81.166% 82.522% 80.966%
+2023-07-09 16:03:32 [DEBUG]: F1 : [0.7761194  0.58823529 0.67924528 0.95440729 0.95394737 0.91803279]
+2023-07-09 16:03:32 [DEBUG]: pre : [0.69026549 0.69105691 0.63       0.98125    0.97972973 0.97902098]
+2023-07-09 16:03:32 [DEBUG]: rec : [0.88636364 0.51204819 0.73684211 0.92899408 0.92948718 0.86419753]
+2023-07-09 16:13:14 [INFO]: Currently using GPU 0
+2023-07-09 16:13:14 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:13:14 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:13:14 [DEBUG]: standard every feature
+2023-07-09 16:13:15 [DEBUG]: standard every feature
+2023-07-09 16:13:15 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:13:15 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:13:15 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:13:15 [INFO]: ==============init mlp model================
+2023-07-09 16:13:15 [INFO]: MLP params: {"hidden_layer_sizes": [100, 100], "max_iter": 2000, "random_state": 42, "verbose": true}
+2023-07-09 16:13:15 [INFO]: =================Start mlp training phase ...=================
+2023-07-09 16:13:16 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:13:16 [DEBUG]: F1 : [1. 1.]
+2023-07-09 16:13:16 [DEBUG]: pre : [1. 1.]
+2023-07-09 16:13:16 [DEBUG]: rec : [1. 1.]
+2023-07-09 16:13:16 [INFO]: =========================Start mlp evaluating phase ...==============================
+2023-07-09 16:13:16 [DEBUG]: F1, Precison, Recall: 69.475% 70.185% 69.612%
+2023-07-09 16:13:16 [DEBUG]: F1 : [0.66666667 0.72282609]
+2023-07-09 16:13:16 [DEBUG]: pre : [0.72857143 0.6751269 ]
+2023-07-09 16:13:16 [DEBUG]: rec : [0.61445783 0.77777778]

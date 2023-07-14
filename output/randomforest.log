@@ -1,0 +1,279 @@
+2023-06-21 15:52:10 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:52:10 [INFO]: Currently using GPU 0
+2023-06-21 15:52:10 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:52:10 [INFO]: ==============Data process===============
+2023-06-21 15:52:10 [INFO]: ==============init randomforest model================
+2023-06-21 15:52:10 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:52:10 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:53:16 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:53:16 [INFO]: Currently using GPU 0
+2023-06-21 15:53:16 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:53:16 [INFO]: ==============Data process===============
+2023-06-21 15:53:16 [INFO]: ==============init randomforest model================
+2023-06-21 15:53:16 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:53:16 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:54:34 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:54:34 [INFO]: Currently using GPU 0
+2023-06-21 15:54:34 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:54:34 [INFO]: ==============Data process===============
+2023-06-21 15:54:34 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:54:34 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:54:34 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:54:34 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:54:34 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:54:34 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:54:34 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:54:35 [INFO]: ==============init randomforest model================
+2023-06-21 15:54:35 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:54:35 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:54:37 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:54:37 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:54:37 [DEBUG]: F1, Precison, Recall: 78.497% 79.169% 78.910%
+2023-06-21 15:55:16 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:55:16 [INFO]: Currently using GPU 0
+2023-06-21 15:55:16 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:55:16 [INFO]: ==============Data process===============
+2023-06-21 15:55:16 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:55:16 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:55:16 [DEBUG]: standard every feature
+2023-06-21 15:55:17 [DEBUG]: standard every feature
+2023-06-21 15:55:17 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:55:17 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:55:17 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:55:17 [INFO]: ==============init randomforest model================
+2023-06-21 15:55:17 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:55:17 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:55:20 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:55:20 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:55:20 [DEBUG]: F1, Precison, Recall: 76.708% 80.411% 77.782%
+2023-06-21 15:55:55 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:55:55 [INFO]: Currently using GPU 0
+2023-06-21 15:55:55 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:55:56 [INFO]: ==============Data process===============
+2023-06-21 15:55:56 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:55:56 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:55:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:55:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:55:56 [DEBUG]: standard every feature
+2023-06-21 15:55:56 [DEBUG]: standard every feature
+2023-06-21 15:55:56 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:55:56 [INFO]: ==============init randomforest model================
+2023-06-21 15:55:56 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:55:56 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:55:58 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:55:58 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:55:58 [DEBUG]: F1, Precison, Recall: 38.169% 50.396% 41.870%
+2023-06-21 15:56:11 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:56:11 [INFO]: Currently using GPU 0
+2023-06-21 15:56:11 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:56:11 [INFO]: ==============Data process===============
+2023-06-21 15:56:11 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:56:11 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 15:56:11 [DEBUG]: standard every feature
+2023-06-21 15:56:11 [DEBUG]: standard every feature
+2023-06-21 15:56:11 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:56:12 [INFO]: ==============init randomforest model================
+2023-06-21 15:56:12 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:56:12 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:56:24 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:56:24 [INFO]: Currently using GPU 0
+2023-06-21 15:56:24 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:56:25 [INFO]: ==============Data process===============
+2023-06-21 15:56:25 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:56:25 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:56:25 [DEBUG]: standard every feature
+2023-06-21 15:56:25 [DEBUG]: standard every feature
+2023-06-21 15:56:25 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:56:25 [INFO]: ==============init randomforest model================
+2023-06-21 15:56:25 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:56:25 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:56:55 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:56:55 [INFO]: Currently using GPU 0
+2023-06-21 15:56:55 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:56:55 [INFO]: ==============Data process===============
+2023-06-21 15:56:55 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:56:55 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:56:55 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:56:55 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:56:55 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:56:55 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:56:55 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:56:56 [INFO]: ==============init randomforest model================
+2023-06-21 15:56:56 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:56:56 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:56:58 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:56:58 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:56:58 [DEBUG]: F1, Precison, Recall: 78.497% 79.169% 78.910%
+2023-06-21 15:57:16 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:57:16 [INFO]: Currently using GPU 0
+2023-06-21 15:57:16 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:57:16 [INFO]: ==============Data process===============
+2023-06-21 15:57:16 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:57:16 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:57:16 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:57:16 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:57:16 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:57:16 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 15:57:16 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:57:17 [INFO]: ==============init randomforest model================
+2023-06-21 15:57:17 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:57:17 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:57:19 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:57:19 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:57:19 [DEBUG]: F1, Precison, Recall: 76.708% 80.411% 77.782%
+2023-06-21 15:57:56 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:57:56 [INFO]: Currently using GPU 0
+2023-06-21 15:57:56 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:57:56 [INFO]: ==============Data process===============
+2023-06-21 15:57:56 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:57:56 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:57:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:57:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:57:56 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:57:56 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:57:56 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:57:57 [INFO]: ==============init randomforest model================
+2023-06-21 15:57:57 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:57:57 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:57:59 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:57:59 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:57:59 [DEBUG]: F1, Precison, Recall: 78.497% 79.169% 78.910%
+2023-06-21 15:58:19 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:58:19 [INFO]: Currently using GPU 0
+2023-06-21 15:58:19 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:58:19 [INFO]: ==============Data process===============
+2023-06-21 15:58:19 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:58:19 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:58:19 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:58:19 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:58:19 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:58:19 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:58:19 [DEBUG]: feature relevant scores: [('feature22', 2574.5941735984793), ('feature45', 555.6298058781807), ('feature85', 210.80298065977453), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 155.0090330762512), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature10', 152.65549778935292), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature46', 141.772467759824), ('feature27', 140.81711564818175), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature49', 125.8327351024456), ('feature30', 112.93224062193775), ('feature15', 111.41330886636308), ('feature44', 98.61960992539052), ('feature31', 50.25521775832728), ('feature56', 36.65477892526396), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature2', 31.12707315424269), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.743885556351884), ('feature82', 20.401067077942876), ('feature55', 18.602086510404444), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature24', 16.85761004895283), ('feature84', 16.48447509046124), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature89', 15.917886137783231), ('feature98', 15.828799707332859), ('feature51', 15.828348644670724), ('feature39', 15.816039892660667), ('feature58', 15.815502220226362), ('feature43', 15.699481552606066), ('feature81', 15.609103407735423), ('feature0', 15.233378105225915), ('feature96', 15.086935260786696), ('feature86', 15.029792166577899), ('feature53', 15.012408413423003), ('feature104', 14.997710665057891), ('feature8', 14.692747800128368), ('feature21', 14.614273185226606), ('feature52', 14.406207403501835), ('feature7', 14.148138061091148), ('feature90', 14.019726670775581), ('feature79', 13.785115822186997), ('feature42', 13.45125631365271), ('feature25', 12.551366959022864), ('feature18', 12.130642815958577), ('feature101', 12.1064494510971), ('feature29', 12.033981510458048), ('feature50', 11.89756356474477), ('feature48', 11.460526459146411), ('feature23', 11.364953430807734), ('feature68', 11.206342483261835), ('feature62', 11.056300527378628), ('feature17', 11.014707213637058), ('feature37', 10.928816001327712), ('feature40', 10.847350900159691), ('feature12', 10.842122561862842), ('feature73', 10.161055936849909), ('feature75', 9.757441415441628), ('feature47', 9.616997823350097), ('feature102', 9.407023701926107), ('feature103', 9.303131849749406), ('feature3', 9.173625083003953), ('feature26', 8.707416102795353), ('feature34', 8.38779786945496), ('feature11', 8.251708485748333), ('feature95', 8.066792599920644), ('feature38', 8.022794650925942), ('feature83', 8.000632477267084), ('feature28', 7.8974967854672435), ('feature63', 7.656516883368174), ('feature74', 7.185191919757902), ('feature64', 6.503507011221499), ('feature93', 5.6416083614779575), ('feature70', 4.441535034675522), ('feature106', 4.2948581563952475), ('feature4', 4.079854213115491), ('feature78', 3.7062350213886015), ('feature41', 3.621735160989245), ('feature99', 2.547436376471559), ('feature1', 2.4947673919954383), ('feature88', 2.0791785786592683), ('feature80', 1.9491091578843665), ('feature92', 1.7811450313629666), ('feature60', 0.9857435368580504), ('feature20', 0.8738329176142426), ('feature32', 0.7229509416111256), ('feature65', 0.3679177244473461)]
+2023-06-21 15:58:19 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature21', 'feature22', 'feature24', 'feature25', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 15:58:19 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature21', 'feature22', 'feature24', 'feature25', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 15:58:19 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:58:20 [INFO]: ==============init randomforest model================
+2023-06-21 15:58:20 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:58:20 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:58:21 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:58:21 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:58:22 [DEBUG]: F1, Precison, Recall: 74.767% 77.915% 75.988%
+2023-06-21 15:58:47 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 15:58:47 [INFO]: Currently using GPU 0
+2023-06-21 15:58:47 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 15:58:47 [INFO]: ==============Data process===============
+2023-06-21 15:58:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:58:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 15:58:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:58:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 15:58:47 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:58:48 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 15:58:48 [DEBUG]: feature relevant scores: [('feature22', 2574.5941735984793), ('feature45', 555.6298058781807), ('feature85', 210.80298065977453), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 155.0090330762512), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature10', 152.65549778935292), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature46', 141.772467759824), ('feature27', 140.81711564818175), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature49', 125.8327351024456), ('feature30', 112.93224062193775), ('feature15', 111.41330886636308), ('feature44', 98.61960992539052), ('feature31', 50.25521775832728), ('feature56', 36.65477892526396), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature2', 31.12707315424269), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.743885556351884), ('feature82', 20.401067077942876), ('feature55', 18.602086510404444), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature24', 16.85761004895283), ('feature84', 16.48447509046124), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature89', 15.917886137783231), ('feature98', 15.828799707332859), ('feature51', 15.828348644670724), ('feature39', 15.816039892660667), ('feature58', 15.815502220226362), ('feature43', 15.699481552606066), ('feature81', 15.609103407735423), ('feature0', 15.233378105225915), ('feature96', 15.086935260786696), ('feature86', 15.029792166577899), ('feature53', 15.012408413423003), ('feature104', 14.997710665057891), ('feature8', 14.692747800128368), ('feature21', 14.614273185226606), ('feature52', 14.406207403501835), ('feature7', 14.148138061091148), ('feature90', 14.019726670775581), ('feature79', 13.785115822186997), ('feature42', 13.45125631365271), ('feature25', 12.551366959022864), ('feature18', 12.130642815958577), ('feature101', 12.1064494510971), ('feature29', 12.033981510458048), ('feature50', 11.89756356474477), ('feature48', 11.460526459146411), ('feature23', 11.364953430807734), ('feature68', 11.206342483261835), ('feature62', 11.056300527378628), ('feature17', 11.014707213637058), ('feature37', 10.928816001327712), ('feature40', 10.847350900159691), ('feature12', 10.842122561862842), ('feature73', 10.161055936849909), ('feature75', 9.757441415441628), ('feature47', 9.616997823350097), ('feature102', 9.407023701926107), ('feature103', 9.303131849749406), ('feature3', 9.173625083003953), ('feature26', 8.707416102795353), ('feature34', 8.38779786945496), ('feature11', 8.251708485748333), ('feature95', 8.066792599920644), ('feature38', 8.022794650925942), ('feature83', 8.000632477267084), ('feature28', 7.8974967854672435), ('feature63', 7.656516883368174), ('feature74', 7.185191919757902), ('feature64', 6.503507011221499), ('feature93', 5.6416083614779575), ('feature70', 4.441535034675522), ('feature106', 4.2948581563952475), ('feature4', 4.079854213115491), ('feature78', 3.7062350213886015), ('feature41', 3.621735160989245), ('feature99', 2.547436376471559), ('feature1', 2.4947673919954383), ('feature88', 2.0791785786592683), ('feature80', 1.9491091578843665), ('feature92', 1.7811450313629666), ('feature60', 0.9857435368580504), ('feature20', 0.8738329176142426), ('feature32', 0.7229509416111256), ('feature65', 0.3679177244473461)]
+2023-06-21 15:58:48 [DEBUG]: selected top k=80 relevant features£º['sample_id', 'feature0', 'feature2', 'feature3', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature12', 'feature13', 'feature14', 'feature15', 'feature16', 'feature17', 'feature18', 'feature19', 'feature21', 'feature22', 'feature23', 'feature24', 'feature25', 'feature26', 'feature27', 'feature29', 'feature30', 'feature31', 'feature33', 'feature34', 'feature35', 'feature36', 'feature37', 'feature39', 'feature40', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature47', 'feature48', 'feature49', 'feature50', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature62', 'feature66', 'feature67', 'feature68', 'feature69', 'feature71', 'feature72', 'feature73', 'feature75', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature101', 'feature102', 'feature103', 'feature104', 'feature105']
+2023-06-21 15:58:48 [DEBUG]: selected top k=80 relevant features£º['sample_id', 'feature0', 'feature2', 'feature3', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature12', 'feature13', 'feature14', 'feature15', 'feature16', 'feature17', 'feature18', 'feature19', 'feature21', 'feature22', 'feature23', 'feature24', 'feature25', 'feature26', 'feature27', 'feature29', 'feature30', 'feature31', 'feature33', 'feature34', 'feature35', 'feature36', 'feature37', 'feature39', 'feature40', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature47', 'feature48', 'feature49', 'feature50', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature62', 'feature66', 'feature67', 'feature68', 'feature69', 'feature71', 'feature72', 'feature73', 'feature75', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature101', 'feature102', 'feature103', 'feature104', 'feature105']
+2023-06-21 15:58:48 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 15:58:48 [INFO]: ==============init randomforest model================
+2023-06-21 15:58:48 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-06-21 15:58:48 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-06-21 15:58:50 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 15:58:50 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-06-21 15:58:50 [DEBUG]: F1, Precison, Recall: 78.383% 79.975% 78.758%
+2023-07-09 16:00:37 [INFO]: Currently using GPU 0
+2023-07-09 16:00:38 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:00:38 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:00:38 [DEBUG]: standard every feature
+2023-07-09 16:00:38 [DEBUG]: standard every feature
+2023-07-09 16:00:38 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:00:38 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:00:38 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:00:38 [INFO]: ==============init randomforest model================
+2023-07-09 16:00:38 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-09 16:00:38 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-09 16:00:43 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:00:43 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-07-09 16:00:43 [DEBUG]: F1, Precison, Recall: 78.650% 81.260% 78.161%
+2023-07-09 16:01:09 [INFO]: Currently using GPU 0
+2023-07-09 16:01:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:01:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:01:09 [DEBUG]: standard every feature
+2023-07-09 16:01:09 [DEBUG]: standard every feature
+2023-07-09 16:01:09 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:01:09 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:01:09 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:01:10 [INFO]: ==============init randomforest model================
+2023-07-09 16:01:10 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-09 16:01:10 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-09 16:01:14 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:01:14 [DEBUG]: F1 : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:01:14 [DEBUG]: pre : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:01:14 [DEBUG]: rec : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:01:14 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-07-09 16:01:14 [DEBUG]: F1, Precison, Recall: 78.650% 81.260% 78.161%
+2023-07-09 16:01:14 [DEBUG]: F1 : [0.64615385 0.66839378 0.65372168 0.98192771 0.97777778 0.79104478]
+2023-07-09 16:01:14 [DEBUG]: pre : [0.58878505 0.58636364 0.73188406 1.         0.96855346 1.        ]
+2023-07-09 16:01:14 [DEBUG]: rec : [0.71590909 0.77710843 0.59064327 0.96449704 0.98717949 0.65432099]
+2023-07-09 16:13:34 [INFO]: Currently using GPU 0
+2023-07-09 16:13:34 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:13:34 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:13:34 [DEBUG]: standard every feature
+2023-07-09 16:13:34 [DEBUG]: standard every feature
+2023-07-09 16:13:34 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:13:34 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:13:34 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:13:34 [INFO]: ==============init randomforest model================
+2023-07-09 16:13:34 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-09 16:13:34 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-09 16:13:36 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:13:36 [DEBUG]: F1 : [1. 1.]
+2023-07-09 16:13:36 [DEBUG]: pre : [1. 1.]
+2023-07-09 16:13:36 [DEBUG]: rec : [1. 1.]
+2023-07-09 16:13:36 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-07-09 16:13:36 [DEBUG]: F1, Precison, Recall: 68.803% 68.861% 68.805%
+2023-07-09 16:13:36 [DEBUG]: F1 : [0.67692308 0.6991404 ]
+2023-07-09 16:13:36 [DEBUG]: pre : [0.6918239  0.68539326]
+2023-07-09 16:13:36 [DEBUG]: rec : [0.6626506  0.71345029]
+2023-07-09 16:27:34 [INFO]: Currently using GPU 0
+2023-07-09 16:27:35 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:27:35 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:27:35 [DEBUG]: standard every feature
+2023-07-09 16:27:35 [DEBUG]: standard every feature
+2023-07-09 16:27:35 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:27:35 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:27:35 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:27:35 [INFO]: ==============init randomforest model================
+2023-07-09 16:27:35 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-09 16:27:35 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-09 16:27:40 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:27:40 [DEBUG]: F1 : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:27:40 [DEBUG]: pre : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:27:40 [DEBUG]: rec : [1. 1. 1. 1. 1. 1.]
+2023-07-09 16:27:40 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-07-09 16:27:40 [DEBUG]: F1, Precison, Recall: 78.650% 81.260% 78.161%
+2023-07-09 16:27:40 [DEBUG]: F1 : [0.64615385 0.66839378 0.65372168 0.98192771 0.97777778 0.79104478]
+2023-07-09 16:27:40 [DEBUG]: pre : [0.58878505 0.58636364 0.73188406 1.         0.96855346 1.        ]
+2023-07-09 16:27:40 [DEBUG]: rec : [0.71590909 0.77710843 0.59064327 0.96449704 0.98717949 0.65432099]
+2023-07-13 14:14:26 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-07-13 14:14:26 [INFO]: Currently using GPU 0
+2023-07-13 14:14:26 [INFO]: ======================Load dataset ./SoftCup===============
+2023-07-13 14:14:26 [INFO]: ==============Data process===============
+2023-07-13 14:14:26 [INFO]: ==============init randomforest model================
+2023-07-13 14:14:26 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-13 14:14:26 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-13 14:14:55 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-07-13 14:14:55 [INFO]: Currently using GPU 0
+2023-07-13 14:14:55 [INFO]: ======================Load dataset ./SoftCup===============
+2023-07-13 14:14:55 [INFO]: ==============Data process===============
+2023-07-13 14:14:55 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:14:55 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:14:55 [INFO]: ==============init randomforest model================
+2023-07-13 14:14:55 [INFO]: randomforest params: {"n_estimators": 100, "random_state": 42}
+2023-07-13 14:14:55 [INFO]: =================Start randomforest_clf training phase ...=================
+2023-07-13 14:15:05 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-13 14:15:05 [DEBUG]: F1 : [1. 1. 1. 1. 1. 1.]
+2023-07-13 14:15:05 [DEBUG]: pre : [1. 1. 1. 1. 1. 1.]
+2023-07-13 14:15:05 [DEBUG]: rec : [1. 1. 1. 1. 1. 1.]
+2023-07-13 14:15:05 [INFO]: =========================Start randomforest_clf evaluating phase ...==============================
+2023-07-13 14:15:05 [DEBUG]: F1, Precison, Recall: 76.893% 81.979% 76.486%
+2023-07-13 14:15:05 [DEBUG]: F1 : [0.60655738 0.64814815 0.52208835 0.94409938 0.93114754 0.96153846]
+2023-07-13 14:15:05 [DEBUG]: pre : [0.47435897 0.66455696 0.83333333 0.99346405 0.95302013 1.        ]
+2023-07-13 14:15:05 [DEBUG]: rec : [0.84090909 0.63253012 0.38011696 0.89940828 0.91025641 0.92592593]

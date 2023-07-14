@@ -1,0 +1,794 @@
+2023-06-21 13:42:37 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:42:37 [INFO]: Currently using GPU 0
+2023-06-21 13:42:37 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:42:37 [INFO]: ==============Data process===============
+2023-06-21 13:42:37 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:42:37 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:42:37 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:42:37 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:42:37 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 13:42:38 [INFO]: ==============init svm model================
+2023-06-21 13:42:38 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:42:38 [INFO]: =================Start lightGBM training phase ...=================
+2023-06-21 13:43:21 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:43:21 [INFO]: Currently using GPU 0
+2023-06-21 13:43:21 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:43:21 [INFO]: ==============Data process===============
+2023-06-21 13:43:21 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:43:22 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:43:23 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:43:24 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:43:27 [DEBUG]: CACHEDIR=C:\Users\86151\.matplotlib
+2023-06-21 13:43:27 [DEBUG]: Using fontManager instance from C:\Users\86151\.matplotlib\fontlist-v330.json
+2023-06-21 13:44:15 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 13:44:19 [INFO]: ==============init svm model================
+2023-06-21 13:44:21 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:44:22 [INFO]: =================Start lightGBM training phase ...=================
+2023-06-21 13:45:35 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:45:35 [INFO]: Currently using GPU 0
+2023-06-21 13:45:35 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:45:35 [INFO]: ==============Data process===============
+2023-06-21 13:45:35 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:45:36 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:45:39 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:46:28 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:46:28 [INFO]: Currently using GPU 0
+2023-06-21 13:46:28 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:46:28 [INFO]: ==============Data process===============
+2023-06-21 13:46:28 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:46:28 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:46:28 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:46:28 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:46:28 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:46:28 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:46:28 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 13:46:29 [INFO]: ==============init svm model================
+2023-06-21 13:46:29 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:46:29 [INFO]: =================Start lightGBM training phase ...=================
+2023-06-21 13:46:30 [DEBUG]: F1, Precison, Recall: 99.399% 99.400% 99.400%
+2023-06-21 13:46:30 [INFO]: =========================Start lightGBM evaluating phase ...==============================
+2023-06-21 13:46:30 [DEBUG]: F1, Precison, Recall: 4.746% 2.767% 16.667%
+2023-06-21 13:47:39 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:47:39 [INFO]: Currently using GPU 0
+2023-06-21 13:47:39 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:47:39 [INFO]: ==============Data process===============
+2023-06-21 13:47:39 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:47:39 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:47:39 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:47:39 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:47:39 [INFO]: ==============init svm model================
+2023-06-21 13:47:39 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:47:39 [INFO]: =================Start lightGBM training phase ...=================
+2023-06-21 13:50:46 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:50:46 [INFO]: Currently using GPU 0
+2023-06-21 13:50:46 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:50:47 [INFO]: ==============Data process===============
+2023-06-21 13:50:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:50:47 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:50:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:50:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:50:47 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:50:47 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:50:47 [INFO]: ==============init svm model================
+2023-06-21 13:50:47 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:50:47 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:50:57 [DEBUG]: F1, Precison, Recall: 99.904% 99.917% 99.891%
+2023-06-21 13:50:57 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:50:58 [DEBUG]: F1, Precison, Recall: 4.989% 2.933% 16.667%
+2023-06-21 13:51:15 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:51:15 [INFO]: Currently using GPU 0
+2023-06-21 13:51:15 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:51:15 [INFO]: ==============Data process===============
+2023-06-21 13:51:15 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:51:15 [DEBUG]: abnormal value process: set nan to 0
+2023-06-21 13:51:15 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:51:15 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:51:15 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:51:15 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:51:15 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 13:51:16 [INFO]: ==============init svm model================
+2023-06-21 13:51:16 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:51:16 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:51:17 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 13:51:17 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:51:17 [DEBUG]: F1, Precison, Recall: 4.746% 2.767% 16.667%
+2023-06-21 13:51:44 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:51:44 [INFO]: Currently using GPU 0
+2023-06-21 13:51:44 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:51:44 [INFO]: ==============Data process===============
+2023-06-21 13:51:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:51:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:51:44 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:51:44 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:51:44 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:51:45 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:51:45 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 13:51:45 [INFO]: ==============init svm model================
+2023-06-21 13:51:45 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:51:45 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:51:46 [DEBUG]: F1, Precison, Recall: 99.399% 99.400% 99.400%
+2023-06-21 13:51:46 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:51:46 [DEBUG]: F1, Precison, Recall: 4.746% 2.767% 16.667%
+2023-06-21 13:52:10 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:52:10 [INFO]: Currently using GPU 0
+2023-06-21 13:52:10 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:52:10 [INFO]: ==============Data process===============
+2023-06-21 13:52:10 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:52:10 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:52:10 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:52:10 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:52:10 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:52:10 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:52:10 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:52:10 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:52:10 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:52:10 [INFO]: ==============init svm model================
+2023-06-21 13:52:10 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:52:10 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:52:16 [DEBUG]: F1, Precison, Recall: 98.265% 98.570% 97.970%
+2023-06-21 13:52:16 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:52:16 [DEBUG]: F1, Precison, Recall: 5.813% 47.393% 17.073%
+2023-06-21 13:52:47 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:52:47 [INFO]: Currently using GPU 0
+2023-06-21 13:52:47 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:52:47 [INFO]: ==============Data process===============
+2023-06-21 13:52:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:52:47 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:52:47 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:52:47 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:52:47 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:52:47 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:52:47 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:52:47 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:52:47 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:52:47 [INFO]: ==============init svm model================
+2023-06-21 13:52:47 [INFO]: SVC params: {"C": 10000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:52:47 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:52:53 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 13:52:53 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:52:54 [DEBUG]: F1, Precison, Recall: 5.813% 47.393% 17.073%
+2023-06-21 13:53:21 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:53:21 [INFO]: Currently using GPU 0
+2023-06-21 13:53:21 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:53:21 [INFO]: ==============Data process===============
+2023-06-21 13:53:21 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:53:21 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:53:21 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:53:22 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:53:22 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:53:22 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:53:22 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:53:22 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:53:22 [DEBUG]: selected top k=40 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature9', 'feature10', 'feature13', 'feature14', 'feature15', 'feature16', 'feature19', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature45', 'feature46', 'feature49', 'feature55', 'feature56', 'feature59', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature82', 'feature85', 'feature87', 'feature91', 'feature94', 'feature97', 'feature98', 'feature104', 'feature105']
+2023-06-21 13:53:22 [INFO]: ==============init svm model================
+2023-06-21 13:53:22 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:53:22 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:53:28 [DEBUG]: F1, Precison, Recall: 98.265% 98.570% 97.970%
+2023-06-21 13:53:28 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:53:28 [DEBUG]: F1, Precison, Recall: 5.813% 47.393% 17.073%
+2023-06-21 13:53:48 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:53:48 [INFO]: Currently using GPU 0
+2023-06-21 13:53:48 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:53:48 [INFO]: ==============Data process===============
+2023-06-21 13:53:48 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:53:48 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:53:48 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:53:48 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:53:48 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:53:48 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:53:48 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:53:48 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:53:48 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:53:48 [INFO]: ==============init svm model================
+2023-06-21 13:53:48 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:53:48 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:53:55 [DEBUG]: F1, Precison, Recall: 99.945% 99.973% 99.916%
+2023-06-21 13:53:55 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:53:55 [DEBUG]: F1, Precison, Recall: 6.009% 69.615% 17.170%
+2023-06-21 13:54:07 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:54:07 [INFO]: Currently using GPU 0
+2023-06-21 13:54:07 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:54:07 [INFO]: ==============Data process===============
+2023-06-21 13:54:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:54:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:54:07 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:54:08 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:54:08 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:54:08 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:54:08 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:54:08 [DEBUG]: selected top k=80 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature12', 'feature13', 'feature14', 'feature15', 'feature16', 'feature17', 'feature18', 'feature19', 'feature21', 'feature22', 'feature23', 'feature24', 'feature25', 'feature26', 'feature27', 'feature29', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature37', 'feature38', 'feature39', 'feature40', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature47', 'feature48', 'feature49', 'feature50', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature62', 'feature66', 'feature67', 'feature68', 'feature69', 'feature71', 'feature72', 'feature73', 'feature75', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature95', 'feature96', 'feature97', 'feature98', 'feature101', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:54:08 [DEBUG]: selected top k=80 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature12', 'feature13', 'feature14', 'feature15', 'feature16', 'feature17', 'feature18', 'feature19', 'feature21', 'feature22', 'feature23', 'feature24', 'feature25', 'feature26', 'feature27', 'feature29', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature37', 'feature38', 'feature39', 'feature40', 'feature42', 'feature43', 'feature44', 'feature45', 'feature46', 'feature47', 'feature48', 'feature49', 'feature50', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature62', 'feature66', 'feature67', 'feature68', 'feature69', 'feature71', 'feature72', 'feature73', 'feature75', 'feature76', 'feature79', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature95', 'feature96', 'feature97', 'feature98', 'feature101', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:54:08 [INFO]: ==============init svm model================
+2023-06-21 13:54:08 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:54:08 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:54:16 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 13:54:16 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:54:16 [DEBUG]: F1, Precison, Recall: 4.989% 2.933% 16.667%
+2023-06-21 13:54:42 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 13:54:42 [INFO]: Currently using GPU 0
+2023-06-21 13:54:42 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 13:54:42 [INFO]: ==============Data process===============
+2023-06-21 13:54:42 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:54:42 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 13:54:42 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:54:42 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 13:54:42 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:54:42 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 13:54:42 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 13:54:42 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:54:42 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 13:54:42 [INFO]: ==============init svm model================
+2023-06-21 13:54:42 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 13:54:42 [INFO]: =================Start svm training phase ...=================
+2023-06-21 13:54:49 [DEBUG]: F1, Precison, Recall: 99.945% 99.973% 99.916%
+2023-06-21 13:54:49 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 13:54:50 [DEBUG]: F1, Precison, Recall: 6.009% 69.615% 17.170%
+2023-06-21 14:08:25 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:08:25 [INFO]: Currently using GPU 0
+2023-06-21 14:08:25 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:08:26 [INFO]: ==============Data process===============
+2023-06-21 14:08:26 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:08:26 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:08:26 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:08:26 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:08:26 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:08:26 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:08:26 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 14:08:26 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 14:08:26 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 14:08:26 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:08:26 [INFO]: ==============init svm model================
+2023-06-21 14:08:26 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:08:26 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:08:27 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:08:27 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:08:27 [DEBUG]: F1, Precison, Recall: 5.360% 52.775% 16.970%
+2023-06-21 14:09:06 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:09:06 [INFO]: Currently using GPU 0
+2023-06-21 14:09:06 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:09:06 [INFO]: ==============Data process===============
+2023-06-21 14:09:06 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:09:06 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:09:06 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:09:06 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:09:06 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:09:07 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:09:07 [DEBUG]: feature relevant scores: [('feature22', 2605.9140074443067), ('feature45', 559.5075341759011), ('feature10', 272.65061173449936), ('feature85', 212.67719616588903), ('feature5', 201.00836357682812), ('feature19', 178.060955231281), ('feature71', 166.89816901559445), ('feature13', 154.53845121734068), ('feature97', 153.62968354196886), ('feature105', 149.90010382207225), ('feature33', 149.60904926905295), ('feature35', 144.8355122673639), ('feature27', 142.03416736739905), ('feature46', 141.772467759824), ('feature76', 139.7510371281058), ('feature59', 135.86910705745223), ('feature14', 134.8212928577423), ('feature15', 134.7630955756094), ('feature49', 126.4301277860568), ('feature30', 114.59870063536623), ('feature44', 98.61960992539052), ('feature2', 69.11696625405992), ('feature31', 50.25521775832728), ('feature56', 36.67549580769982), ('feature6', 33.45372904899988), ('feature67', 32.817729684757964), ('feature91', 27.573443982966754), ('feature9', 25.978800024404368), ('feature36', 25.727559221857934), ('feature94', 22.62018930779775), ('feature69', 20.421541414644995), ('feature0', 20.34036307226536), ('feature82', 20.323073432721028), ('feature55', 19.38680108353777), ('feature98', 18.258398075516624), ('feature72', 17.689482614799257), ('feature16', 17.245932128868674), ('feature87', 17.23894150877529), ('feature104', 17.131777568840793), ('feature24', 16.846684074204262), ('feature84', 16.561803314340374), ('feature66', 16.38102476955441), ('feature61', 16.249356952419692), ('feature21', 16.121238500632604), ('feature89', 15.917886137783231), ('feature58', 15.904060124568312), ('feature39', 15.816039892660667), ('feature43', 15.764115786039437), ('feature51', 15.763300780146372), ('feature52', 15.323156843857747), ('feature81', 15.315351816699055), ('feature96', 15.220540739392598), ('feature86', 14.97023273108932), ('feature8', 14.77092768108718), ('feature18', 14.766175651782733), ('feature7', 14.3204064076945), ('feature102', 14.138357829906488), ('feature11', 13.958726263040328), ('feature53', 13.828830661183169), ('feature90', 13.821915358958105), ('feature50', 13.77000120930656), ('feature79', 13.663947843512952), ('feature42', 13.48107664251192), ('feature62', 13.15195573339461), ('feature23', 12.96720381393123), ('feature37', 12.828602124392606), ('feature12', 12.82187644645465), ('feature29', 12.704529602669085), ('feature25', 12.352155527098077), ('feature17', 12.16454906255297), ('feature40', 12.144931774573543), ('feature101', 12.1064494510971), ('feature73', 11.786453148556902), ('feature38', 11.637318320978846), ('feature26', 11.569226646259217), ('feature48', 11.468826443716877), ('feature75', 10.952123215308855), ('feature68', 10.783158869634345), ('feature95', 10.721504161637446), ('feature47', 10.600346167558598), ('feature34', 10.017463967423591), ('feature3', 9.172139463828401), ('feature28', 9.091387705581768), ('feature63', 9.059423109405193), ('feature103', 8.840027150640438), ('feature74', 8.756302198521055), ('feature4', 8.382492213769822), ('feature70', 8.185066830814037), ('feature93', 7.645505934727782), ('feature83', 7.574573547095061), ('feature106', 6.460033094674825), ('feature99', 4.823333915067945), ('feature78', 4.755700299452478), ('feature64', 4.743666715311259), ('feature41', 4.285750577669885), ('feature1', 2.957327872842813), ('feature80', 2.4734467077554596), ('feature20', 2.3016374811972433), ('feature88', 2.295046280906031), ('feature54', 2.242481914836018), ('feature65', 1.4177450925315944), ('feature92', 1.3740752360331758), ('feature60', 0.3667354286692945)]
+2023-06-21 14:09:07 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 14:09:07 [DEBUG]: selected top k=60 relevant features£º['sample_id', 'feature0', 'feature2', 'feature5', 'feature6', 'feature7', 'feature8', 'feature9', 'feature10', 'feature11', 'feature13', 'feature14', 'feature15', 'feature16', 'feature18', 'feature19', 'feature21', 'feature22', 'feature24', 'feature27', 'feature30', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature43', 'feature44', 'feature45', 'feature46', 'feature49', 'feature51', 'feature52', 'feature53', 'feature55', 'feature56', 'feature58', 'feature59', 'feature61', 'feature66', 'feature67', 'feature69', 'feature71', 'feature72', 'feature76', 'feature81', 'feature82', 'feature84', 'feature85', 'feature86', 'feature87', 'feature89', 'feature90', 'feature91', 'feature94', 'feature96', 'feature97', 'feature98', 'feature102', 'feature104', 'feature105']
+2023-06-21 14:09:07 [INFO]: ==============init svm model================
+2023-06-21 14:09:07 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:09:07 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:09:13 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:09:13 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:09:14 [DEBUG]: F1, Precison, Recall: 6.009% 69.615% 17.170%
+2023-06-21 14:10:14 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:10:14 [INFO]: Currently using GPU 0
+2023-06-21 14:10:14 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:10:14 [INFO]: ==============Data process===============
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature101', 'feature105', 'label']
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature101', 'feature105', 'label']
+2023-06-21 14:10:14 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:10:14 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:10:14 [DEBUG]: abnormal value process: set nan to self-defined
+2023-06-21 14:10:14 [INFO]: ==============init svm model================
+2023-06-21 14:10:14 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:10:14 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:10:30 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:10:30 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:10:30 [DEBUG]: F1, Precison, Recall: 33.194% 42.937% 35.811%
+2023-06-21 14:11:33 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:11:33 [INFO]: Currently using GPU 0
+2023-06-21 14:11:33 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:11:33 [INFO]: ==============Data process===============
+2023-06-21 14:11:33 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:11:33 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:11:33 [INFO]: ==============init svm model================
+2023-06-21 14:11:33 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:11:33 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:13:59 [DEBUG]: F1, Precison, Recall: 12.182% 21.554% 17.080%
+2023-06-21 14:13:59 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:14:00 [DEBUG]: F1, Precison, Recall: 4.997% 2.939% 16.667%
+2023-06-21 14:14:16 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:14:16 [INFO]: Currently using GPU 0
+2023-06-21 14:14:16 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:14:17 [INFO]: ==============Data process===============
+2023-06-21 14:14:17 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:14:17 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:14:17 [INFO]: ==============init svm model================
+2023-06-21 14:14:17 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:14:17 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:15:29 [DEBUG]: F1, Precison, Recall: 11.976% 22.051% 16.983%
+2023-06-21 14:15:29 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:15:30 [DEBUG]: F1, Precison, Recall: 5.001% 2.942% 16.667%
+2023-06-21 14:15:57 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:15:57 [INFO]: Currently using GPU 0
+2023-06-21 14:15:57 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:15:57 [INFO]: ==============Data process===============
+2023-06-21 14:15:57 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:15:57 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:15:57 [DEBUG]: standard every feature
+2023-06-21 14:15:58 [DEBUG]: standard every feature
+2023-06-21 14:15:58 [INFO]: ==============init svm model================
+2023-06-21 14:15:58 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:15:58 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:17:10 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:17:10 [INFO]: Currently using GPU 0
+2023-06-21 14:17:10 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:17:10 [INFO]: ==============Data process===============
+2023-06-21 14:17:10 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:17:10 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:17:10 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature101', 'feature105', 'label']
+2023-06-21 14:17:10 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature101', 'feature105', 'label']
+2023-06-21 14:17:10 [DEBUG]: standard every feature
+2023-06-21 14:17:10 [DEBUG]: standard every feature
+2023-06-21 14:17:10 [INFO]: ==============init svm model================
+2023-06-21 14:17:10 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:17:10 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:17:26 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:17:26 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:17:27 [DEBUG]: F1, Precison, Recall: 34.141% 44.879% 36.707%
+2023-06-21 14:17:57 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:17:57 [INFO]: Currently using GPU 0
+2023-06-21 14:17:57 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:17:57 [INFO]: ==============Data process===============
+2023-06-21 14:17:57 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:17:57 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:17:57 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:17:57 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:17:57 [DEBUG]: standard every feature
+2023-06-21 14:17:58 [DEBUG]: standard every feature
+2023-06-21 14:17:58 [INFO]: ==============init svm model================
+2023-06-21 14:17:58 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:17:58 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:18:13 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:18:13 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:18:13 [DEBUG]: F1, Precison, Recall: 34.141% 44.879% 36.707%
+2023-06-21 14:19:05 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:19:05 [INFO]: Currently using GPU 0
+2023-06-21 14:19:05 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:19:05 [INFO]: ==============Data process===============
+2023-06-21 14:19:05 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:19:05 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:19:05 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:19:05 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:19:05 [INFO]: ==============init svm model================
+2023-06-21 14:19:05 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:19:05 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:19:33 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:19:33 [INFO]: Currently using GPU 0
+2023-06-21 14:19:33 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:19:33 [INFO]: ==============Data process===============
+2023-06-21 14:19:33 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:19:33 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:19:33 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:19:33 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:19:33 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:19:33 [DEBUG]: normalize every feature with max set to 1
+2023-06-21 14:19:33 [INFO]: ==============init svm model================
+2023-06-21 14:19:33 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:19:33 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:19:49 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:19:49 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:19:50 [DEBUG]: F1, Precison, Recall: 33.194% 42.937% 35.811%
+2023-06-21 14:20:48 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:20:48 [INFO]: Currently using GPU 0
+2023-06-21 14:20:48 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:20:48 [INFO]: ==============Data process===============
+2023-06-21 14:20:48 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:20:48 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:20:48 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:20:48 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:20:48 [DEBUG]: standard every feature
+2023-06-21 14:20:48 [DEBUG]: standard every feature
+2023-06-21 14:20:48 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:20:49 [INFO]: ==============init svm model================
+2023-06-21 14:20:49 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:20:49 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:20:50 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:20:50 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:20:50 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:22:30 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:22:30 [INFO]: Currently using GPU 0
+2023-06-21 14:22:30 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:22:30 [INFO]: ==============Data process===============
+2023-06-21 14:22:30 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:22:30 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:22:30 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:22:30 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:22:30 [DEBUG]: standard every feature
+2023-06-21 14:22:30 [DEBUG]: standard every feature
+2023-06-21 14:22:30 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:22:30 [INFO]: ==============init svm model================
+2023-06-21 14:22:30 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:22:30 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:22:32 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:22:32 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:22:32 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:22:50 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:22:50 [INFO]: Currently using GPU 0
+2023-06-21 14:22:50 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:22:50 [INFO]: ==============Data process===============
+2023-06-21 14:22:50 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:22:50 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:22:50 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:22:50 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:22:50 [DEBUG]: standard every feature
+2023-06-21 14:22:50 [DEBUG]: standard every feature
+2023-06-21 14:22:50 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:22:50 [INFO]: ==============init svm model================
+2023-06-21 14:22:50 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:22:50 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:22:52 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:22:52 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:22:52 [DEBUG]: F1, Precison, Recall: 38.853% 48.265% 41.428%
+2023-06-21 14:23:08 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:23:08 [INFO]: Currently using GPU 0
+2023-06-21 14:23:08 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:23:09 [INFO]: ==============Data process===============
+2023-06-21 14:23:09 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:23:09 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:23:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:23:09 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:23:09 [DEBUG]: standard every feature
+2023-06-21 14:23:09 [DEBUG]: standard every feature
+2023-06-21 14:23:09 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:23:09 [INFO]: ==============init svm model================
+2023-06-21 14:23:09 [INFO]: SVC params: {"C": 10, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:23:09 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:23:10 [DEBUG]: F1, Precison, Recall: 88.854% 89.045% 88.833%
+2023-06-21 14:23:10 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:23:10 [DEBUG]: F1, Precison, Recall: 38.184% 52.171% 42.941%
+2023-06-21 14:23:24 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:23:24 [INFO]: Currently using GPU 0
+2023-06-21 14:23:24 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:23:24 [INFO]: ==============Data process===============
+2023-06-21 14:23:24 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:23:24 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:23:24 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:23:24 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:23:24 [DEBUG]: standard every feature
+2023-06-21 14:23:24 [DEBUG]: standard every feature
+2023-06-21 14:23:24 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:23:24 [INFO]: ==============init svm model================
+2023-06-21 14:23:24 [INFO]: SVC params: {"C": 10000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:23:24 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:23:26 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:23:26 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:23:26 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:24:17 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:24:17 [INFO]: Currently using GPU 0
+2023-06-21 14:24:17 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:24:17 [INFO]: ==============Data process===============
+2023-06-21 14:24:17 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:24:17 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:24:17 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:24:17 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:24:17 [DEBUG]: standard every feature
+2023-06-21 14:24:17 [DEBUG]: standard every feature
+2023-06-21 14:24:17 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:24:17 [INFO]: ==============init svm model================
+2023-06-21 14:24:17 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:24:17 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:24:19 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:24:19 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:24:19 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:24:30 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:24:30 [INFO]: Currently using GPU 0
+2023-06-21 14:24:30 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:24:31 [INFO]: ==============Data process===============
+2023-06-21 14:24:31 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:24:31 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:24:31 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:24:31 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:24:31 [DEBUG]: standard every feature
+2023-06-21 14:24:31 [DEBUG]: standard every feature
+2023-06-21 14:24:31 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:24:31 [INFO]: ==============init svm model================
+2023-06-21 14:24:31 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:24:31 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:24:32 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:24:32 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:24:33 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:25:06 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:25:06 [INFO]: Currently using GPU 0
+2023-06-21 14:25:06 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:25:07 [INFO]: ==============Data process===============
+2023-06-21 14:25:07 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:07 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:07 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:07 [DEBUG]: standard every feature
+2023-06-21 14:25:07 [DEBUG]: standard every feature
+2023-06-21 14:25:07 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:25:07 [INFO]: ==============init svm model================
+2023-06-21 14:25:07 [INFO]: SVC params: {"C": 100, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:25:07 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:25:08 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:25:08 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:25:09 [DEBUG]: F1, Precison, Recall: 38.853% 48.265% 41.428%
+2023-06-21 14:25:28 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:25:28 [INFO]: Currently using GPU 0
+2023-06-21 14:25:28 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:25:28 [INFO]: ==============Data process===============
+2023-06-21 14:25:28 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:28 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:28 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:28 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:28 [DEBUG]: standard every feature
+2023-06-21 14:25:28 [DEBUG]: standard every feature
+2023-06-21 14:25:28 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:25:29 [INFO]: ==============init svm model================
+2023-06-21 14:25:29 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:25:29 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:25:30 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:25:30 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:25:30 [DEBUG]: F1, Precison, Recall: 39.195% 48.244% 41.580%
+2023-06-21 14:25:44 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:25:44 [INFO]: Currently using GPU 0
+2023-06-21 14:25:44 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:25:44 [INFO]: ==============Data process===============
+2023-06-21 14:25:44 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:44 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:25:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:44 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:25:44 [DEBUG]: standard every feature
+2023-06-21 14:25:44 [DEBUG]: standard every feature
+2023-06-21 14:25:44 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:25:44 [DEBUG]: selected top k=20 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature67', 'feature72', 'feature76', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:25:44 [DEBUG]: selected top k=20 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature67', 'feature72', 'feature76', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:25:44 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:25:44 [INFO]: ==============init svm model================
+2023-06-21 14:25:44 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:25:44 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:25:46 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:25:46 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:25:46 [DEBUG]: F1, Precison, Recall: 39.873% 51.960% 43.413%
+2023-06-21 14:26:05 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:26:05 [INFO]: Currently using GPU 0
+2023-06-21 14:26:05 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:26:05 [INFO]: ==============Data process===============
+2023-06-21 14:26:05 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:05 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:05 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:05 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:05 [DEBUG]: standard every feature
+2023-06-21 14:26:06 [DEBUG]: standard every feature
+2023-06-21 14:26:06 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:26:06 [DEBUG]: selected top k=10 relevant features£º['sample_id', 'feature5', 'feature13', 'feature19', 'feature33', 'feature35', 'feature46', 'feature59', 'feature76', 'feature97', 'feature105']
+2023-06-21 14:26:06 [DEBUG]: selected top k=10 relevant features£º['sample_id', 'feature5', 'feature13', 'feature19', 'feature33', 'feature35', 'feature46', 'feature59', 'feature76', 'feature97', 'feature105']
+2023-06-21 14:26:06 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:26:06 [INFO]: ==============init svm model================
+2023-06-21 14:26:06 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:26:06 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:26:10 [DEBUG]: F1, Precison, Recall: 94.785% 94.846% 94.767%
+2023-06-21 14:26:10 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:26:10 [DEBUG]: F1, Precison, Recall: 33.853% 51.976% 39.316%
+2023-06-21 14:26:23 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:26:23 [INFO]: Currently using GPU 0
+2023-06-21 14:26:23 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:26:23 [INFO]: ==============Data process===============
+2023-06-21 14:26:23 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:23 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:23 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:23 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:23 [DEBUG]: standard every feature
+2023-06-21 14:26:23 [DEBUG]: standard every feature
+2023-06-21 14:26:23 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:26:23 [DEBUG]: selected top k=15 relevant features£º['sample_id', 'feature5', 'feature6', 'feature13', 'feature14', 'feature19', 'feature31', 'feature33', 'feature35', 'feature44', 'feature46', 'feature59', 'feature67', 'feature76', 'feature97', 'feature105']
+2023-06-21 14:26:23 [DEBUG]: selected top k=15 relevant features£º['sample_id', 'feature5', 'feature6', 'feature13', 'feature14', 'feature19', 'feature31', 'feature33', 'feature35', 'feature44', 'feature46', 'feature59', 'feature67', 'feature76', 'feature97', 'feature105']
+2023-06-21 14:26:23 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:26:23 [INFO]: ==============init svm model================
+2023-06-21 14:26:23 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:26:23 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:26:25 [DEBUG]: F1, Precison, Recall: 99.967% 99.967% 99.967%
+2023-06-21 14:26:25 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:26:26 [DEBUG]: F1, Precison, Recall: 37.726% 51.865% 42.108%
+2023-06-21 14:26:45 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:26:45 [INFO]: Currently using GPU 0
+2023-06-21 14:26:45 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:26:46 [INFO]: ==============Data process===============
+2023-06-21 14:26:46 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:46 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:26:46 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:46 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:26:46 [DEBUG]: standard every feature
+2023-06-21 14:26:46 [DEBUG]: standard every feature
+2023-06-21 14:26:46 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:26:46 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:26:46 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:26:46 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:26:46 [INFO]: ==============init svm model================
+2023-06-21 14:26:46 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:26:46 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:26:47 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:26:47 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:26:48 [DEBUG]: F1, Precison, Recall: 42.320% 52.653% 45.095%
+2023-06-21 14:28:11 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:28:11 [INFO]: Currently using GPU 0
+2023-06-21 14:28:11 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:28:11 [INFO]: ==============Data process===============
+2023-06-21 14:28:11 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:11 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:11 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:11 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:11 [DEBUG]: standard every feature
+2023-06-21 14:28:11 [DEBUG]: standard every feature
+2023-06-21 14:28:11 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:28:11 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:11 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:11 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:28:12 [INFO]: ==============init svm model================
+2023-06-21 14:28:12 [INFO]: SVC params: {"C": 1000, "kernel": "poly", "decision_function_shape": "ovr"}
+2023-06-21 14:28:12 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:28:12 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:28:12 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:28:12 [DEBUG]: F1, Precison, Recall: 38.622% 44.691% 39.307%
+2023-06-21 14:28:28 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:28:28 [INFO]: Currently using GPU 0
+2023-06-21 14:28:28 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:28:29 [INFO]: ==============Data process===============
+2023-06-21 14:28:29 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:29 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:29 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:29 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:29 [DEBUG]: standard every feature
+2023-06-21 14:28:29 [DEBUG]: standard every feature
+2023-06-21 14:28:29 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:28:29 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:29 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:29 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:28:29 [INFO]: ==============init svm model================
+2023-06-21 14:28:29 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:28:29 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:28:30 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:28:30 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:28:31 [DEBUG]: F1, Precison, Recall: 42.320% 52.653% 45.095%
+2023-06-21 14:28:45 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:28:45 [INFO]: Currently using GPU 0
+2023-06-21 14:28:45 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:28:46 [INFO]: ==============Data process===============
+2023-06-21 14:28:46 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:46 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:28:46 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:46 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:28:46 [DEBUG]: standard every feature
+2023-06-21 14:28:46 [DEBUG]: standard every feature
+2023-06-21 14:28:46 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:28:46 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:46 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:28:46 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:28:46 [INFO]: ==============init svm model================
+2023-06-21 14:28:46 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovo"}
+2023-06-21 14:28:46 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:28:47 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:28:47 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:28:48 [DEBUG]: F1, Precison, Recall: 42.320% 52.653% 45.095%
+2023-06-21 14:29:00 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-06-21 14:29:00 [INFO]: Currently using GPU 0
+2023-06-21 14:29:00 [INFO]: ======================Load dataset ./SoftCup===============
+2023-06-21 14:29:00 [INFO]: ==============Data process===============
+2023-06-21 14:29:00 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:29:00 [DEBUG]: abnormal value process: feature list without nan: ['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature39', 'feature44', 'feature46', 'feature57', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature77', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature100', 'feature101', 'feature105', 'label']
+2023-06-21 14:29:00 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:29:00 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-06-21 14:29:00 [DEBUG]: standard every feature
+2023-06-21 14:29:00 [DEBUG]: standard every feature
+2023-06-21 14:29:00 [DEBUG]: feature relevant scores: [('feature5', 201.0083635768318), ('feature19', 178.0609552312745), ('feature13', 154.53845121733875), ('feature97', 153.62968354197608), ('feature105', 149.9001038220746), ('feature33', 149.6090492690474), ('feature35', 144.83551226736583), ('feature46', 141.77246775982618), ('feature76', 139.75103712810662), ('feature59', 135.86910705744728), ('feature14', 134.8212928577423), ('feature44', 98.61960992538948), ('feature31', 50.2552177583252), ('feature6', 33.45372904900407), ('feature67', 32.817729684761794), ('feature91', 27.57344398295895), ('feature9', 25.97880002440337), ('feature36', 25.72755922186122), ('feature94', 22.62018930778936), ('feature72', 17.689482614796677), ('feature16', 17.245932128869352), ('feature87', 17.238941508777838), ('feature66', 16.381024769549647), ('feature61', 16.249356952415397), ('feature89', 15.91788613778026), ('feature39', 15.816039892668803)]
+2023-06-21 14:29:00 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:29:00 [DEBUG]: selected top k=25 relevant features£º['sample_id', 'feature5', 'feature6', 'feature9', 'feature13', 'feature14', 'feature16', 'feature19', 'feature31', 'feature33', 'feature35', 'feature36', 'feature44', 'feature46', 'feature59', 'feature61', 'feature66', 'feature67', 'feature72', 'feature76', 'feature87', 'feature89', 'feature91', 'feature94', 'feature97', 'feature105']
+2023-06-21 14:29:00 [DEBUG]: balance class number: set every kind num to 500
+2023-06-21 14:29:01 [INFO]: ==============init svm model================
+2023-06-21 14:29:01 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-06-21 14:29:01 [INFO]: =================Start svm training phase ...=================
+2023-06-21 14:29:02 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-06-21 14:29:02 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-06-21 14:29:02 [DEBUG]: F1, Precison, Recall: 42.320% 52.653% 45.095%
+2023-07-09 15:55:02 [INFO]: Currently using GPU 0
+2023-07-09 15:55:02 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 15:55:02 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 15:55:02 [DEBUG]: standard every feature
+2023-07-09 15:55:03 [DEBUG]: standard every feature
+2023-07-09 15:55:03 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 15:55:03 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 15:55:03 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 15:55:03 [INFO]: ==============init svm model================
+2023-07-09 15:55:18 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-09 15:55:25 [DEBUG]: CACHEDIR=C:\Users\86151\.matplotlib
+2023-07-09 15:55:25 [DEBUG]: Using fontManager instance from C:\Users\86151\.matplotlib\fontlist-v330.json
+2023-07-09 15:55:41 [INFO]: =================Start svm training phase ...=================
+2023-07-09 15:55:44 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 15:56:03 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-07-09 15:56:03 [DEBUG]: F1, Precison, Recall: 79.907% 80.652% 79.345%
+2023-07-09 15:57:04 [INFO]: Currently using GPU 0
+2023-07-09 15:57:04 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 15:57:04 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 15:57:04 [DEBUG]: standard every feature
+2023-07-09 15:57:04 [DEBUG]: standard every feature
+2023-07-09 15:57:04 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 15:57:04 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 15:57:04 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 15:57:04 [INFO]: ==============init svm model================
+2023-07-09 15:57:04 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-09 15:57:04 [INFO]: =================Start svm training phase ...=================
+2023-07-09 15:57:07 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 15:57:07 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 15:57:07 [DEBUG]: F1 : [1. 1. 1. 1. 1. 1.]
+2023-07-09 15:57:07 [DEBUG]: pre : [1. 1. 1. 1. 1. 1.]
+2023-07-09 15:57:07 [DEBUG]: rec : [1. 1. 1. 1. 1. 1.]
+2023-07-09 15:57:07 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-07-09 15:57:08 [DEBUG]: F1, Precison, Recall: 79.907% 80.652% 79.345%
+2023-07-09 15:57:08 [DEBUG]: F1, Precison, Recall: 79.907% 80.652% 79.345%
+2023-07-09 15:57:08 [DEBUG]: F1 : [0.75766017 0.5325779  0.62573099 0.97297297 0.96393443 0.94155844]
+2023-07-09 15:57:08 [DEBUG]: pre : [0.7431694  0.5026738  0.62573099 0.98780488 0.98657718 0.99315068]
+2023-07-09 15:57:08 [DEBUG]: rec : [0.77272727 0.56626506 0.62573099 0.95857988 0.94230769 0.89506173]
+2023-07-09 16:10:36 [INFO]: Currently using GPU 0
+2023-07-09 16:10:36 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:10:36 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:10:36 [DEBUG]: standard every feature
+2023-07-09 16:10:37 [DEBUG]: standard every feature
+2023-07-09 16:10:37 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:10:37 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:10:37 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:10:37 [INFO]: ==============init svm model================
+2023-07-09 16:10:37 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-09 16:10:37 [INFO]: =================Start svm training phase ...=================
+2023-07-09 16:10:38 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:10:38 [DEBUG]: F1 : [1. 1.]
+2023-07-09 16:10:38 [DEBUG]: pre : [1. 1.]
+2023-07-09 16:10:38 [DEBUG]: rec : [1. 1.]
+2023-07-09 16:10:38 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-07-09 16:10:38 [DEBUG]: F1, Precison, Recall: 66.040% 66.287% 66.094%
+2023-07-09 16:10:38 [DEBUG]: F1 : [0.63924051 0.68156425]
+2023-07-09 16:10:38 [DEBUG]: pre : [0.67333333 0.65240642]
+2023-07-09 16:10:38 [DEBUG]: rec : [0.60843373 0.71345029]
+2023-07-09 16:11:56 [INFO]: Currently using GPU 0
+2023-07-09 16:11:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:11:56 [DEBUG]: abnormal value process: remove the feature list with variance 0: ['feature57', 'feature77', 'feature100']
+2023-07-09 16:11:56 [DEBUG]: standard every feature
+2023-07-09 16:11:57 [DEBUG]: standard every feature
+2023-07-09 16:11:57 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:11:57 [DEBUG]: abnormal value process: set nan to 0
+2023-07-09 16:11:57 [DEBUG]: balance class number: set every kind num to 2000
+2023-07-09 16:11:57 [INFO]: ==============init svm model================
+2023-07-09 16:12:09 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-09 16:12:13 [INFO]: =================Start svm training phase ...=================
+2023-07-09 16:12:13 [DEBUG]: F1, Precison, Recall: 100.000% 100.000% 100.000%
+2023-07-09 16:12:13 [DEBUG]: F1 : [1. 1.]
+2023-07-09 16:12:13 [DEBUG]: pre : [1. 1.]
+2023-07-09 16:12:13 [DEBUG]: rec : [1. 1.]
+2023-07-09 16:12:24 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-07-09 16:12:33 [DEBUG]: F1, Precison, Recall: 66.040% 66.287% 66.094%
+2023-07-09 16:12:38 [DEBUG]: F1 : [0.63924051 0.68156425]
+2023-07-09 16:12:51 [DEBUG]: pre : [0.67333333 0.65240642]
+2023-07-09 16:12:51 [DEBUG]: rec : [0.60843373 0.71345029]
+2023-07-13 14:16:23 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-07-13 14:16:23 [INFO]: Currently using GPU 0
+2023-07-13 14:16:23 [INFO]: ======================Load dataset ./SoftCup===============
+2023-07-13 14:16:24 [INFO]: ==============Data process===============
+2023-07-13 14:16:24 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:16:24 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:16:24 [INFO]: ==============init svm model================
+2023-07-13 14:16:24 [INFO]: SVC params: {"C": 1000, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-13 14:16:24 [INFO]: =================Start svm training phase ...=================
+2023-07-13 14:16:58 [INFO]: ===========================================================environment configuration=====================================================================================
+2023-07-13 14:16:58 [INFO]: Currently using GPU 0
+2023-07-13 14:16:58 [INFO]: ======================Load dataset ./SoftCup===============
+2023-07-13 14:16:59 [INFO]: ==============Data process===============
+2023-07-13 14:16:59 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:16:59 [DEBUG]: abnormal value process: set nan to 0
+2023-07-13 14:16:59 [INFO]: ==============init svm model================
+2023-07-13 14:16:59 [INFO]: SVC params: {"C": 10, "kernel": "rbf", "decision_function_shape": "ovr"}
+2023-07-13 14:16:59 [INFO]: =================Start svm training phase ...=================
+2023-07-13 14:17:32 [DEBUG]: F1, Precison, Recall: 13.800% 23.857% 17.959%
+2023-07-13 14:17:32 [DEBUG]: F1 : [0.68243423 0.14558059 0.         0.         0.         0.        ]
+2023-07-13 14:17:32 [DEBUG]: pre : [0.51836899 0.91304348 0.         0.         0.         0.        ]
+2023-07-13 14:17:32 [DEBUG]: rec : [0.99844479 0.07909605 0.         0.         0.         0.        ]
+2023-07-13 14:17:32 [INFO]: =========================Start svm evaluating phase ...==============================
+2023-07-13 14:17:33 [DEBUG]: F1, Precison, Recall: 5.019% 2.954% 16.667%
+2023-07-13 14:17:33 [DEBUG]: F1 : [0.30111206 0.         0.         0.         0.         0.        ]
+2023-07-13 14:17:33 [DEBUG]: pre : [0.17724068 0.         0.         0.         0.         0.        ]
+2023-07-13 14:17:33 [DEBUG]: rec : [1. 0. 0. 0. 0. 0.]
