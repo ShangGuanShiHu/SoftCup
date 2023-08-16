@@ -40,8 +40,8 @@ class LightGBM:
             'min_data_in_leaf': args.min_data_in_leaf,
             'early_stopping_rounds': args.early_stopping_rounds,
             'metric': ['custom'],
-            'reg_lambda': lambda_l1
-            # 'feature_fraction': 0.8,
+            'reg_lambda': lambda_l1,
+            # 'feature_fraction': 0.9,
         }
 
         self.logger.info("LightGBM params: {}"
@@ -55,7 +55,7 @@ class LightGBM:
         # pred_probs = clf.predict(X)
         pred_labels = pred_probs
         self.logger.debug("\n{}".format(
-            classification_report(y, pred_labels)
+            classification_report(y, pred_labels, digits=4)
         ))
         # f1 = f1_score(y, pred_labels, average='macro')
         # pre = precision_score(y, pred_labels, average='macro')

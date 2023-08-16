@@ -13,18 +13,15 @@ import warnings
 from torch.utils.data import Dataset, DataLoader, Subset
 from tqdm import tqdm
 
+from core.approach.catboost import CatBoost
 from core.approach.fc import FC
-from core.approach.lightgbm import LightGBM
+from core.approach.lightgbm import LightGBM,custom_eval
 from core.approach.randomforest import RandomForest
 from core.approach.softcup_dataset import SoftCupDataset
 from core.approach.svm import SVM
 from core.approach.mlp import MLP
 from core.preprocess.dataset import load_raw_data
-from core.preprocess.feature_extractor import data_fillna, delete_abnormal_data, normalize_data, select_feature, \
-    feature_engineering, balance_class_number, dataset_adapter, standard_data, delete_nan_columns, statistic_nan_num, \
-    change_abnormal_value_to_nan, remove_adv_feats, fill_nan_with_noisy, data_augment, random_mask, \
-    abnormal_value_not_frequent, abnormal_value_one_hot, random_under_sample, random_over_sample, combination, \
-    adysn_over_sample, borderlinesmote_over_sample, combination_features,sk_standard_data,remove_features_by_train_test
+from core.preprocess.feature_extractor import *
 from utils.logger import get_logger
 
 from sklearn.preprocessing import StandardScaler
@@ -40,7 +37,7 @@ parser.add_argument('--gpu_devices', type=str, default='0')
 # 定义训练还是验证'train','vaild'
 parser.add_argument('--task_type', type=str, default='vaild')
 
-# model有lightgbm、svm、mlp、randomforest,fc
+# model有lightgbm、svm、mlp、randomforest,fc,catboost
 parser.add_argument('--model', type=str, default='lightgbm')
 parser.add_argument('--log_dir', type=str, default='./output')
 parser.add_argument('--model_dir', type=str, default='./model')
@@ -51,7 +48,7 @@ parser.add_argument('--train_ratio', type=float, default=0.7)
 parser.add_argument('--batch_size', type=int, default=32)
 
 # data process
-parser.add_argument('--K', type=int, default=80)
+parser.add_argument('--K', type=int, default=40)
 parser.add_argument('--c_num', type=int, default=490)
 
 # lgb
@@ -59,7 +56,7 @@ parser.add_argument('--objective', type=str, default='multiclass')
 # parser.add_argument('--objective', type=str, default='binary')
 parser.add_argument('--boosting_type', type=str, default='gbdt')
 parser.add_argument('--lgb_learning_rate', type=float, default=0.01)
-parser.add_argument('--num_iterations', type=int, default=10000)
+parser.add_argument('--num_iterations', type=int, default=8000)
 # 叶子节点，不等同于分类类别，等同于分叉的次数
 parser.add_argument('--num_leaves', type=int, default=6)
 parser.add_argument('--min_data_in_leaf', type=int,default=30)
@@ -90,7 +87,7 @@ parser.add_argument('--dropout', type=float, default=0.25)
 
 args = parser.parse_args()
 
-
+# 设置随机种子
 def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
@@ -98,33 +95,42 @@ def set_seed(seed):
     np.random.seed(seed)
     random.seed(seed)
 
-
+# 网格调参
 def parameter_experiment(logger):
     logger.info("==============Load dataset {}===============".format(args.dataset))
     train_raw_data, test_raw_data = load_raw_data(args)
 
     logger.info("==============Data process===============")
-    train_dateset = dataset_adapter(data_fillna(train_raw_data, logger))
-    test_dateset = dataset_adapter(data_fillna(test_raw_data, logger))
+    train_raw_data = balance_class_number(train_raw_data,logger=logger,c_num=args.c_num)
+
+    train_dateset = dataset_adapter(train_raw_data,logger)
+    test_dateset = dataset_adapter(test_raw_data,logger)
+
 
     logger.info("==============init model================")
     clf = LightGBM(args).lgb_clf
     # 定义参数网格
     param_grid = {
-        'num_leaves': [2, 4, 6, 8, 10],
-        'learning_rate': [0.1, 0.08, 0.05, 0.03, 0.01],
-        'num_iterations': [1000, 2000, 3000, 4000, 5000]
+        'num_leaves': [6]
+        # 'num_leaves': [4, 6, 8, 10]
+        # 'learning_rate': [0.005, 0.01, 0.015],
+        # 'num_iterations': [2000, 3000, 4000],
+        # 'max_depth': [3,4,5,6],
+        # 'min_data_in_leaf': [20,30,40,50]
     }
     from sklearn.model_selection import GridSearchCV
     clf_gscv = GridSearchCV(clf, param_grid, cv=5)
 
     X, y, sample_ids = train_dateset
-    clf_gscv.fit(X, y)
+
 
     X_valid, y_valid, sample_ids = test_dateset
 
+    clf_gscv.fit(X, y, eval_set=[(X_valid, y_valid)], eval_metric=custom_eval)
+
     pred_probs = clf_gscv.predict(X_valid)
-    pred_labels = np.argmax(pred_probs, axis=1)
+    # pred_labels = np.argmax(pred_probs, axis=1)
+    pred_labels = pred_probs
 
     from sklearn.metrics import f1_score, precision_score, recall_score
     f1 = f1_score(y_valid, pred_labels, average='macro')
@@ -138,10 +144,10 @@ def parameter_experiment(logger):
     logger.debug("Best parameters: {}".format(clf_gscv.best_params_))
     logger.debug("Best score: {}".format(clf_gscv.best_score_))
 
-
+# 数据处理方法实验
 def main():
     # logger = get_logger(args.log_dir, 'experiment')
-
+    # 日志
     logger = get_logger(args.log_dir, args.model)
     use_gpu = torch.cuda.is_available()
     logger.info(
@@ -152,8 +158,10 @@ def main():
         cudnn.benchmark = True
     else:
         logger.info("Currently using CPU (GPU is highly recommended)")
+    # 设置随机种子，保证结果的可复现
     set_seed(args.seed)
     logger.info("======================Load dataset {}===============".format(args.dataset))
+    # 加载数据
     train_raw_data, test_raw_data = load_raw_data(args)
 
     logger.info("==============Data process===============")
@@ -171,12 +179,16 @@ def main():
     # test_raw_data,_ = change_abnormal_value_to_nan(test_raw_data,logger, sigma_3_param)
 
     # 将方差为0的列移除
-    # train_raw_data, del_cols = delete_abnormal_data(train_raw_data, logger)
-    # test_raw_data,_ = delete_abnormal_data(test_raw_data, logger, del_cols)
+    train_raw_data, del_cols = delete_abnormal_data(train_raw_data, logger)
+    test_raw_data,_ = delete_abnormal_data(test_raw_data, logger, del_cols)
+
+    # 移除训练集中重复的行
+    train_raw_data = delete_repeated_rows(train_raw_data,logger)
 
     # 归一化每一列的数据
     # train_raw_data, normalize_param = normalize_data(train_raw_data, logger)
-    # test_raw_data,_ = normalize_data(test_raw_data, logger, normalize_param)
+    # # test_raw_data,_ = normalize_data(test_raw_data, logger, normalize_param)
+    # test_raw_data, _ = normalize_data(test_raw_data, logger)
 
     # 标准化每一列数据
     # train_raw_data, standard_param = standard_data(train_raw_data, logger)
@@ -190,6 +202,12 @@ def main():
     # 特征工程挑选topk相关的列
     # k = args.K
     # train_raw_data, selected_feature = feature_engineering(train_raw_data, logger, k)
+    # # test_raw_data = select_feature(test_raw_data, logger, selected_feature)
+    # test_raw_data, selected_feature_ = feature_engineering(test_raw_data, logger, k)
+
+    # print(list((set(selected_feature))&(set(selected_feature_))))
+    # selected_feature = ['feature22', 'feature45', 'feature14', 'feature10', 'feature36', 'feature31', 'feature16', 'feature33', 'feature71', 'feature105', 'feature30', 'feature59', 'feature46', 'feature27', 'feature13', 'feature97', 'feature15', 'feature67', 'feature61', 'feature19', 'feature87', 'feature44', 'feature35', 'feature5', 'feature49', 'feature85', 'feature2', 'feature76']
+    # train_raw_data = select_feature(train_raw_data, logger, selected_feature)
     # test_raw_data = select_feature(test_raw_data, logger, selected_feature)
 
     # 统计每一行nan值
@@ -225,16 +243,11 @@ def main():
     # removed_feats = [f'feature{i}' for i in
     #                  [0, 2, 11, 17, 18, 20, 24, 26, 28, 32, 38, 40, 50, 54, 60, 62, 63, 64, 65, 69, 70, 73, 74, 78, 80,
     #                   88, 90, 92, 93, 98, 99, 103, 104, 106]]
-    # # removed_feats_valid = [f'feature{i}' for i in
-    # #                  [0, 11, 17, 18, 20, 24, 26, 28, 32, 38, 40, 50, 54, 60, 62, 63, 64, 65, 69, 70, 73, 74, 78, 80, 88,
-    # #                   90, 93, 98, 99, 103, 104, 106]]
-    # # removed_feats_test = ['feature3', 'feature12', 'feature18', 'feature23', 'feature24', 'feature25', 'feature28', 'feature29', 'feature34', 'feature37', 'feature40', 'feature41', 'feature47', 'feature50', 'feature53', 'feature62', 'feature63', 'feature68', 'feature69', 'feature70', 'feature74', 'feature83', 'feature90', 'feature93', 'feature95', 'feature99', 'feature102', 'feature103']
-    # # # removed_feats = []
-    # # # for removed_feat in removed_feats_valid:
-    # # #     if removed_feat in removed_feats_test:
-    # # #         removed_feats.append(removed_feat)
-    # # # removed_feats = sorted(list(set(removed_feats_valid).intersection(set(removed_feats_test))))
-    # # removed_feats = sorted(list(set(removed_feats_valid).union(set(removed_feats_test))))
+    # removed_feats_valid = [f'feature{i}' for i in
+    #                  [0, 11, 17, 18, 20, 24, 26, 28, 32, 38, 40, 50, 54, 60, 62, 63, 64, 65, 69, 70, 73, 74, 78, 80, 88,
+    #                   90, 93, 98, 99, 103, 104, 106]]
+    # removed_feats_test = ['feature3', 'feature12', 'feature18', 'feature23', 'feature24', 'feature25', 'feature28', 'feature29', 'feature34', 'feature37', 'feature40', 'feature41', 'feature47', 'feature50', 'feature53', 'feature62', 'feature63', 'feature68', 'feature69', 'feature70', 'feature74', 'feature83', 'feature90', 'feature93', 'feature95', 'feature99', 'feature102', 'feature103']
+    # removed_feats = sorted(list(set(removed_feats_valid).union(set(removed_feats_test))))
     #
     # train_raw_data, test_raw_data = remove_adv_feats(train_raw_data, test_raw_data, logger, removed_feats)
 
@@ -249,7 +262,9 @@ def main():
     # 衍生特征，异常值处理，对正常值、异常值以及空值进行三分类，异常值处理通过3σ来得到，具体多少σ未知
     # train_raw_data, sigma_param = abnormal_value_one_hot(train_raw_data, logger)
     # test_raw_data, _ = abnormal_value_one_hot(test_raw_data,logger)
+    # train_raw_data,test_raw_data, imp = data_fillna_mean(train_raw_data,test_raw_data)
 
+    # train_raw_data,test_raw_data, pca = extract_feature_pca(train_df=train_raw_data,test_df=test_raw_data,logger=logger,n_features=30)
     # 上采样
     # train_raw_data = random_over_sample(logger, train_raw_data)
 
@@ -278,13 +293,15 @@ def main():
         clf = MLP(args)
     elif args.model == 'randomforest':
         clf = RandomForest(args)
+    elif args.model == 'catboost':
+        clf = CatBoost(args)
     else:
         raise NotImplementedError
     clf.fit(train_dataset, test_dataset)
     clf.evaluate(test_dataset)
 
 
-# 这里是对空值进行了处理，
+# 这里是对空值进行了处理，神经网络
 def train_fc():
     logger = get_logger(args.log_dir, args.model)
     use_gpu = torch.cuda.is_available()
@@ -443,7 +460,7 @@ def train_fc():
         clf.fit(train_dataset,test_dataset)
         clf.evaluate(test_dataset)
 
-
+# 查看对抗验证的效果
 def adv_feat_experiment():
     from utils.adv import get_adv_feats
     logger = get_logger(args.log_dir, 'feat-experiment')
@@ -460,27 +477,50 @@ def adv_feat_experiment():
 if __name__ == "__main__":
     main()
     # train_fc()
+    # logger = get_logger(args.log_dir, 'parameter_experiment')
+    # parameter_experiment(logger)
     # adv_feat_experiment()
 
 
+# kde技术
 # import seaborn as sns
 # import matplotlib.pyplot as plt
 # if __name__ == "__main__":
 #     train_raw_data, test_raw_data = load_raw_data(args)
-#     # removed_feats_valid = ['feature3', 'feature4','feature5','feature6','feature7','feature8']
+#     # removed_feats_valid = ['feature3', 'feature4','feature5','feature6','feature7','feature8','feature9','feature10']
+#     # removed_feats_valid = []
 #     # removed_feats_valid.extend([f'feature{i}' for i in
 #     #                  [0, 11, 17, 18, 20, 24, 26, 28, 32, 38, 40, 50, 54, 60, 62, 63, 64, 65, 69, 70, 73, 74, 78, 80, 88,
 #     #                   90, 93, 98, 99, 103, 104, 106]])
-#     # for feat in removed_feats_valid:
-#     feat = 'label'
-#     train_feat = train_raw_data[feat].values.tolist()
-#     test_feat = test_raw_data[feat].values.tolist()
-#     sns.kdeplot(train_feat, shade=True, color='r', label='train')
-#     sns.kdeplot(test_feat, shade=True, color='b', label='test')
-#     plt.xlabel('Feature')
-#     plt.legend()
-#     plt.show()
-#     plt.close()
+#     removed_feats_valid = [(2, 1492), (45, 1488), (10, 1479), (7, 1160), (104, 1112), (106, 931), (37, 930), (85, 914),
+#                            (87, 912), (9, 861), (52, 845), (66, 842), (14, 837), (71, 831), (41, 825), (18, 774),
+#                            (95, 757), (63, 695), (89, 694), (96, 690), (29, 678), (72, 676), (12, 657), (81, 650),
+#                            (79, 649), (15, 644), (0, 643), (53, 642), (90, 619), (69, 617), (84, 607), (47, 602),
+#                            (30, 572), (103, 566), (51, 550), (50, 547), (93, 539), (62, 538), (86, 528), (21, 526),
+#                            (101, 522), (17, 518), (67, 515), (49, 514), (99, 514), (44, 508), (38, 499), (83, 486),
+#                            (24, 484), (105, 483), (102, 469), (19, 455), (48, 454), (98, 452), (73, 449), (11, 448),
+#                            (33, 432), (43, 431), (27, 429), (58, 426), (82, 422), (59, 406), (68, 406), (28, 394),
+#                            (39, 389), (8, 373), (35, 371), (40, 339), (4, 337), (25, 337), (3, 336), (97, 332),
+#                            (23, 324), (42, 306), (46, 306), (70, 303), (31, 301), (94, 299), (91, 269), (75, 260),
+#                            (5, 259), (61, 248), (36, 244), (26, 237), (76, 209), (56, 204), (22, 183), (74, 183),
+#                            (34, 151), (6, 150), (55, 150), (13, 131), (16, 87), (60, 51), (20, 21), (1, 20), (80, 17),
+#                            (64, 15), (54, 10), (32, 5), (92, 1), (57, 0), (65, 0), (77, 0), (78, 0), (88, 0), (100, 0)]
+#
+#
+#     # feats = [feat for feat in train_raw_data.columns.tolist() if feat not in removed_feats_valid]
+#     # for feat in feats:
+#     for feat, importance in removed_feats_valid:
+#         feat = f'feature{feat}'
+#     # feat = 'label'
+#         train_feat = train_raw_data[feat].values.tolist()
+#         test_feat = test_raw_data[feat].values.tolist()
+#         sns.kdeplot(train_feat, shade=True, color='r', label='train')
+#         sns.kdeplot(test_feat, shade=True, color='b', label='test')
+#         plt.xlabel(f'{feat}-{importance}')
+#         plt.legend()
+#         plt.title(feat)
+#         plt.show()
+#         plt.close()
 
 # if __name__ == "__main__":
 #

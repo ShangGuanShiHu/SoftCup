@@ -6,9 +6,11 @@ import pandas as pd
 from numpy import long, NaN
 
 from pandas import DataFrame
+from sklearn.decomposition import PCA
 
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_classif  # 或其他适合的统计指标
+from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 
 from sklearn.utils import shuffle
@@ -24,6 +26,19 @@ def get_raw_cols(raw_data: DataFrame, is_raw=True):
         return [col for col in raw_cols if col != 'sample_id' and col != 'label' and '_' not in col]
     else:
         return [col for col in raw_cols if col != 'sample_id' and col != 'label']
+
+
+# 去除训练集中重复的行
+def delete_repeated_rows(raw_data: DataFrame, logger):
+    logger.debug("delete repeated samples")
+    return raw_data[[keep==False for keep in raw_data.drop(columns=['sample_id']).duplicated()]]
+
+# 各个类别权重
+def class_weighted(raw_data: DataFrame):
+    value_counts_dict = raw_data['label'].value_counts().to_dict()
+    count_max = int(np.max(list(value_counts_dict.values())))
+    class_weight = {key: count_max/value_counts_dict[key] for key in value_counts_dict.keys()}
+    return class_weight
 
 
 def data_fillna(raw_data: DataFrame, logger, fill_all=True, fill_value: Tuple[float, Dict] = 0, fill_dic=None):
@@ -51,6 +66,14 @@ def data_fillna(raw_data: DataFrame, logger, fill_all=True, fill_value: Tuple[fl
         raw_data = raw_data.fillna(fill_dic)
         return raw_data, fill_dic
 
+
+def data_fillna_mean(train_raw_data: DataFrame, test_raw_data: DataFrame):
+    feats = [col for col in train_raw_data.columns if col != 'sample_id' and col != 'label']
+    imp = SimpleImputer()
+    imp.fit(train_raw_data[feats])
+    train_raw_data[feats] = imp.transform(train_raw_data[feats])
+    test_raw_data[feats] = imp.transform(test_raw_data[feats])
+    return train_raw_data, test_raw_data, imp
 
 # 异常值处理, 剔除方差为0的列
 def delete_abnormal_data(raw_data: DataFrame, logger, del_cols=None):
@@ -148,7 +171,7 @@ def standard_data(raw_data: DataFrame, logger, standard_param=None):
                 raw_data[col] = (raw_data[col] - standard_param[col]['mean'])
     return raw_data, standard_param
 
-#
+# 标准化，用标准化库
 def sk_standard_data(raw_data: DataFrame, logger,scaler=None):
     logger.debug("standard every feature")
     features = get_raw_cols(raw_data, is_raw=False)
@@ -175,7 +198,7 @@ def select_feature(raw_data: DataFrame, logger, selected_feature=None):
         return raw_data
 
 
-# 特征工程
+# 特征工程， 挑选特征
 def feature_engineering(raw_data: DataFrame, logger, k: int = 5, inplace=True):
     selector = SelectKBest(score_func=f_classif, k=k)
     raw_data_cols = raw_data.columns
@@ -199,7 +222,7 @@ def feature_engineering(raw_data: DataFrame, logger, k: int = 5, inplace=True):
     return raw_data, selected_feature
 
 
-# 数据增强
+# 数据增强，高斯噪声增强，有一定的效果
 def data_augment(raw_data: DataFrame, logger, loc=0, std_dev=0.5):
     # logger.debug("data augment by gs noise")
     #
@@ -215,7 +238,7 @@ def data_augment(raw_data: DataFrame, logger, loc=0, std_dev=0.5):
     return raw_data
 
 
-# 随机mask
+# 随机mask， nan很多，
 def random_mask(raw_data: DataFrame, logger, mask_rate_m=2):
     mask = np.random.randint(low=0, high=mask_rate_m, size=raw_data.shape)
     mask[mask != 0] = 1
@@ -474,5 +497,21 @@ def remove_features_by_train_test(train_raw_datas: DataFrame, test_raw_datas: Da
         test_p50 = test_raw_datas[feat].quantile(0.5)
         test_raw_datas[feat] = test_raw_datas[feat].values - test_p50 + train_p50
     return train_raw_datas, test_raw_datas
+
+# pca降维
+def extract_feature_pca(train_df: pd.DataFrame, test_df: pd.DataFrame, logger, n_features: int):
+    temp_train = train_df.copy().fillna(0)
+    temp_test = test_df.copy().fillna(0)
+    pca = PCA(n_components=n_features)
+    feats = [c for c in train_df.columns if c != 'label' and c != 'sample_id']
+    pca.fit(temp_train[feats])
+
+    train_df = train_df.drop(columns=feats)
+    test_df = test_df.drop(columns=feats)
+
+    new_feats = pca.get_feature_names_out()
+    train_df[new_feats] = pca.transform(temp_train[feats])
+    test_df[new_feats] = pca.transform(temp_test[feats])
+    return train_df, test_df, pca
 
 

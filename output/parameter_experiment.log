@@ -1,0 +1,24 @@
+2023-08-01 10:41:00 [INFO]: ==============Load dataset ./SoftCup===============
+2023-08-01 10:41:00 [INFO]: ==============Data process===============
+2023-08-01 10:41:00 [DEBUG]: abnormal value process: set nan to 0
+2023-08-01 10:41:43 [INFO]: ==============Load dataset ./SoftCup===============
+2023-08-01 10:41:43 [INFO]: ==============Data process===============
+2023-08-01 10:41:43 [DEBUG]: abnormal value process: set nan to 0
+2023-08-01 10:41:48 [DEBUG]: abnormal value process: set nan to 0
+2023-08-01 10:41:50 [INFO]: ==============init model================
+2023-08-01 10:41:51 [INFO]: LightGBM params: {"boosting_type": "gbdt", "objective": "multiclass", "num_iterations": 10000, "num_leaves": 6, "max_depth": 4, "learning_rate": 0.01, "n_jobs": 16, "min_data_in_leaf": 30, "early_stopping_rounds": 1000, "metric": ["custom"], "reg_lambda": 0.005}
+2023-08-01 10:48:10 [INFO]: ==============Load dataset ./SoftCup===============
+2023-08-01 10:48:10 [INFO]: ==============Data process===============
+2023-08-01 10:48:10 [DEBUG]: abnormal value process: set nan to 0
+2023-08-01 10:48:10 [DEBUG]: abnormal value process: set nan to 0
+2023-08-01 10:48:10 [INFO]: ==============init model================
+2023-08-01 10:48:10 [INFO]: LightGBM params: {"boosting_type": "gbdt", "objective": "multiclass", "num_iterations": 10000, "num_leaves": 6, "max_depth": 4, "learning_rate": 0.01, "n_jobs": 16, "min_data_in_leaf": 30, "early_stopping_rounds": 1000, "metric": ["custom"], "reg_lambda": 0.005}
+2023-08-01 10:56:26 [INFO]: ==============Load dataset ./SoftCup===============
+2023-08-01 10:56:27 [INFO]: ==============Data process===============
+2023-08-01 10:56:27 [DEBUG]: balance class number: set every kind num to 490
+2023-08-01 10:56:27 [INFO]: ==============init model================
+2023-08-01 10:56:27 [INFO]: LightGBM params: {"boosting_type": "gbdt", "objective": "multiclass", "num_iterations": 10000, "num_leaves": 6, "max_depth": 4, "learning_rate": 0.01, "n_jobs": 16, "min_data_in_leaf": 30, "early_stopping_rounds": 1000, "metric": ["custom"], "reg_lambda": 0.005}
+2023-08-01 10:57:51 [DEBUG]: [Failure Type Identification]
+2023-08-01 10:57:51 [DEBUG]: F1, Precison, Recall: 71.119% 79.132% 72.627%
+2023-08-01 10:57:51 [DEBUG]: Best parameters: {'num_leaves': 6}
+2023-08-01 10:57:51 [DEBUG]: Best score: 0.9020408163265307
